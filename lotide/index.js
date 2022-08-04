@@ -11,22 +11,4 @@ const countOnly = require("./map")
 const countLetters= require("./countLetters")
 
 
-module.exports = {
-  head: head,
-  tail: tail,
-  middle: middle,
-  without: without,
-  takeUntil: takeUntil,
-  map:map,
-  flatten: flatten,
-  findKeyByValue: findKeyByValue,
-  findKey:findKey,
-  countOnly:countOnly,
-  countLetters: countLetters
-
-
-
-
-
-};
-
+module.exports = { head, tail, middle, without,takeUntil, map, flatten, findKeyByValue, findKey, countOnly, countLetters}; 
