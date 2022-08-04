@@ -25,3 +25,7 @@ return result
 
 
 console.log(assertEqual ( countLetters("lighthouse in the house")["l"], 1))
+
+
+
+module.exports = countLetters
